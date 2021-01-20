@@ -1,0 +1,215 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "c32ebe0e-59d2-11eb-916c-7c04d0da0a8a",
+    "deck_config_uuid": "e5f9ee88-598a-11eb-a1d8-7c04d0da0a8a",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "e5f9ee88-598a-11eb-a1d8-7c04d0da0a8a",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "mid": 1600300336993,
+    "name": "universitet::edk",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "e5fa4ae0-598a-11eb-a1d8-7c04d0da0a8a",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze-3a5c9",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "e5fa5526-598a-11eb-a1d8-7c04d0da0a8a",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "colab_test_tag"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "<br>\\(\\hat{\\boldsymbol{\\theta}}=g(x[0], x[1], \\ldots, x[N-1])\\)&nbsp;<br><br>- The function {{c4::\\(g(\\cdot) \\)}} is the {{c1::estimator}}<br>- The vector {{c4::\\( \\hat\\theta \\)}} is the {{c2::estimate}}<div>-\\(\\text { The discrete-variable } {{c6::\\hat{\\mathcal{H} } \\in\\left\\{\\mathcal{H}_{0}, \\mathcal{H}_{1}\\right\\} }} \\text { is the {{c5::decision}} }\\)</div><div><br></div><div><br></div>",
+                ""
+            ],
+            "guid": "GYHLN4,NJ]",
+            "note_model_uuid": "e5fa4ae0-598a-11eb-a1d8-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "MVU {{c1::Minimum Variance Unbiased}} estimator<div>CRLB {{c2::Cramer Ratio Lower Bound}}</div><div>BLUE {{c3::Best Linear Unbiased Estimator}}</div><div>MLE {{c4::Maximum Likelyhood Estimator}}</div><div>{{c5::Bayesan estimation}} will be also be discussed</div><div>MMSE ( {{c6::minimum mean square error}}) and MAP ({{c7::maximum a posteriori}}) Estimators<br></div>",
+                ""
+            ],
+            "guid": "w.E7.i395s",
+            "note_model_uuid": "e5fa4ae0-598a-11eb-a1d8-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "- {{c3::Classical}} Estimation<br>\\(\\theta\\) is assumed {{c1::deterministic}} and unknown&nbsp; {{c5::\\(p(\\boldsymbol{x} ; \\boldsymbol{\\theta})\\)<div></div>}}<div>{{c4::Bayesian}} Estimation<br>\\(-\\theta\\) is assumed {{c2::stochastic}} and unknown&nbsp;{{c5::\\(p(\\boldsymbol{x} \\mid \\boldsymbol{\\theta})\\)}}</div>",
+                ""
+            ],
+            "guid": "CyHer0dizf",
+            "note_model_uuid": "e5fa5526-598a-11eb-a1d8-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "CRLB - Definition<br>Assuming that the {{c1::likelihood function}} satisfies the {{c2::regularity condition}}<br>\\[<br>\\mathbb{E}\\left\\{\\frac{ {{c3::\\partial}{\\partial \\theta} }} {{c4::\\log (p(\\boldsymbol{x} ; \\theta)}})\\right\\}=0 \\quad \\forall \\theta<br>\\]<br>the variance of any unbiased estimator must satisfy the following condition<br>\\[<br>{{c5::\\operatorname{Var}\\{\\hat{\\theta}\\} }} \\geq \\frac{1}{-\\mathbb{E}\\left\\{{{c6::\\frac{\\partial^{2}}{\\partial \\theta^{2}} }} {{c7::\\log (p(\\boldsymbol{x} ; \\theta)}})\\right\\}}<br>\\]",
+                ""
+            ],
+            "guid": "bu&+Y2&{Jp",
+            "note_model_uuid": "e5fa4ae0-598a-11eb-a1d8-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,506 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "c2f35e40-59d2-11eb-916c-7c04d0da0a8a",
+    "deck_config_uuid": "e5f9ee88-598a-11eb-a1d8-7c04d0da0a8a",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "e5f9ee88-598a-11eb-a1d8-7c04d0da0a8a",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "Skjermbilde 2021-01-18 kl. 11.18.12.png",
+        "Skjermbilde 2021-01-19 kl. 12.54.48.png",
+        "Skjermbilde 2021-01-19 kl. 13.50.11.png",
+        "Skjermbilde 2021-01-19 kl. 14.01.19.png"
+    ],
+    "mid": 1568390094743,
+    "name": "universitet::bølge",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "e5fa4ae0-598a-11eb-a1d8-7c04d0da0a8a",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze-3a5c9",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "external_source",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "external_page",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze  (pdf references)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}\n<br><br><br><a href='javascript:pycmd(\"pdfjs319501851{{text:external_source}}319501851{{text:external_page}}\");'>{{external_source}}</a>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dispersive: Wave speed {{c1::depends on frequency}}.<br>Non-dispersive: Wave speed {{c1::independent of frequency}}. ({{c1::\\(K=\\omega/c\\)}})",
+                ""
+            ],
+            "guid": "o`FULO^au_",
+            "note_model_uuid": "e5fa4ae0-598a-11eb-a1d8-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<br>\\(p(x, t)={{c3::\\hat{p} \\sin (\\omega t-k x)}}\\)<br><br>where we have<br>\\(\\omega={{c6::2 \\pi f}}=\\) the angular frequency, and<div>&nbsp;\\(f=\\) the frequency of the oscillation&nbsp;</div><div>\\(k=\\) {{c2::the wave number}}, and \\(k={{c1::\\omega / c }} \\)</div><div>\\(c=\\) {{c5::the wave speed (propagaiton speed)&nbsp;}}</div><div>\\(\\hat{p}=\\) {{c4::the wave amplitude}}</div>",
+                ""
+            ],
+            "guid": "E{N[N%Cmuu",
+            "note_model_uuid": "e5fa4ae0-598a-11eb-a1d8-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "antakelser bølgelikning:<div>a) Det akustiske medium er {{c1::homogent}}.<br>b) Tetthetsvariasjonene er {{c2::adiabatiske}}.<br>c) Mediet er fullstendig {{c3::elastisk}}.<br>d) {{c4::Små amplituder}} av variablene.<br></div>",
+                "",
+                "akustikk.pdf",
+                ""
+            ],
+            "guid": "BQ=KCTJ4,|",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "bølge::auk::komp::kap::1::1",
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b>Newton's bevegelsesligning</b>:<div><br><div>\\(\\vec{F}=m \\vec{a} = \\left({{c1::\\rho_{0}+\\rho}}\\right) {{c2::d x d y d z}} {{c3::\\frac{\\partial \\vec{v} }{\\partial t} }}\\)</div></div><div><br></div><div>\\(\\vec{F}=-\\nabla p d x d y d z\\)<br></div><div><br></div><div>\\({{c4::\\nabla p}}={{c5::-\\rho_{o} }} {{c6::\\frac{\\partial \\vec{v} }{\\partial t} }}\\)<br></div><div><br></div>",
+                "<div><img src=\"Skjermbilde 2021-01-18 kl. 11.18.12.png\"><br></div>Her er \\(\\vec{F}\\) den kraften som virker på volumelementet, \\(\\rho\\) er variasjonen i likevektstettheten, og \\(\\vec{v}\\) hastigheten, alle funksjoner av tiden.<div>\\(\\nabla p \\text { er gradienten til trykket } p \\text { . }\\)<br></div><div>Den siste formen for Newton's bevegelsesligning uttrykker at akselerasjonen er proporsjonal med trykkgradienten \\(\\nabla p\\).<br></div>",
+                "akustikk.pdf",
+                "3"
+            ],
+            "guid": "iKao5VOb!N",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "bølge::auk::komp::kap::1::2::1",
+                "bølgelikning_utledning",
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b>gassloven utledning:</b><div>\\({{c1::P V^{\\gamma} }}=\\text { konst }\\)<br></div><div><br></div><div>I ligningen er konstanten \\(\\gamma=1.43\\) for luft, og \\(P\\) og \\(V\\) er det totale trykk og totale volum, dvs. summen av de statiske og de overlagrede komponenter. Følgelig blir<br><br>\\({{c2::\\left(P_{o} + p\\right)}}{{c3::\\left(V_{o}+d V\\right)^{\\gamma} }}= {{c4::P_{o} V_{o}^{\\gamma} }}\\) (1.7)</div><div><br>Korrekt til første orden i \\(p\\) og \\(d V\\) reduseres ligningen til<br><br>\\(p={{c5::-P_{o} \\gamma \\frac{d V}{V} }}\\) (1.8)<br><br>Legg merke til at \\(V=d x d y d z,\\) og at \\(d V\\) er endringen i \\(V .\\) La forskyvningen \\(\\vec{\\xi}\\) være definert ved<br><br>\\({{c6::\\vec{v} }}=\\frac{\\partial \\vec{\\xi}}{\\partial t}\\) (1.9)<br><br>Hvis forskyvningen av motstående flater i volumet \\(V\\) er forskjellig, vil volumet endre seg i samsvar med ligningen<br><br>\\(d V=\\frac{\\partial \\xi_{x}}{\\partial x} V+\\frac{\\partial \\xi_{y}}{\\partial y} V+\\frac{\\partial \\xi_{z}}{\\partial z} V={{c7::V \\nabla \\cdot \\vec{\\xi} }}\\) (1.10)<br><br>Sammenholdt med (1.8) gir ligningene følgende resultat:<br><br>\\(p={{c8::-P_{0} \\gamma}} {{c9::\\nabla \\cdot \\vec{\\xi} }}\\) (1.11)<br><br>Det gjenstår å derivere ligningen m.h.p. tiden og benytte (1.9). Resultatet blir:<br><br>\\( \\nabla \\cdot \\vec{v}=-\\frac{1}{P_{0} \\gamma} \\frac{\\partial p}{\\partial t} \\) (1.12)</div>",
+                "",
+                "akustikk.pdf",
+                "4"
+            ],
+            "guid": "Hh01^E_0Xm",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "bølge::auk::komp::kap::1::2::2",
+                "bølgelikning_utledning",
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vi har {{c1::<b>N2</b>}}&nbsp;som gir:<div>\\( {{c2::\\nabla p}} =-{{c3::\\rho_{o} }} {{c4::\\frac{\\partial \\vec{v} }{\\partial t} }}\\)</div><div><br>Vi har {{c5::<b>gassloven</b>}}&nbsp;som gir&nbsp;</div><div>\\({{c6::\\nabla \\cdot \\vec{v} }}=-{{c7::\\frac{1}{P_{0} \\gamma} }} {{c8::\\frac{\\partial p}{\\partial t} }}\\)<br></div><div><br></div><div>Difflikning som gir:</div><div>\\(\\nabla^{2} p-\\left(\\frac{\\rho_{0}}{P_{0} \\gamma}\\right) \\frac{\\partial^{2} p}{\\partial t^{2}}=0\\)<br></div><div><br></div>",
+                "<div>Ta divergensen til N2 og sett inn fra gassloven</div>",
+                "akustikk.pdf",
+                "5"
+            ],
+            "guid": "xMc!yZ-.O#",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "bølge::auk::komp::kap::1::2::2",
+                "bølgelikning_utledning",
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Forplantningshastighet<div>\\(c = \\sqrt{\\frac{ {{c1::\\gamma P_{0} }} } { {{c2::\\rho_{0} }} } }\\)<br></div><div><br></div><div><br>\\[c=\\sqrt{\\frac{B}{{{c3::\\rho_{o} }} } } \\]</div><div><br>Uttrykt ved forplantningshastigheten \\(\\mathrm{c}\\) har bølgeligningen (1.13) formen<br>\\[<br>\\nabla^{2} p-{{c4::\\frac{1}{c^{2} } }} \\frac{\\partial^{2} p}{\\partial t^{2}}=0<br>\\]<br></div>",
+                "For væsker og faste stoffer inngår elastisitetsmodulen \\(B\\) istedenfor produktet \\(\\gamma P_{0},\\)",
+                "akustikk.pdf",
+                "6"
+            ],
+            "guid": "e%ETy0>tlO",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "bølge::auk::komp::kap::1::3",
+                "bølgelikning_utledning",
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\({{c2::\\hat{v}(\\omega)}}={{c1::\\frac{1}{c \\rho_{o} } }} \\hat{p}(\\omega)&nbsp;\\)",
+                "",
+                "akustikk.pdf",
+                "7"
+            ],
+            "guid": "B1I+Eazrr^",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "likn::2::9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Aukustisk impedans:</div>\\(Z_{s}=\\frac{ {{c1::\\hat{p}(\\omega)}} }{ {{c1::\\hat{v}(\\omega)}} }={{c2::c \\rho_{o} }}=\\sqrt{\\gamma {{c3::P_{o} \\rho_{o} }} }=\\sqrt{ {{c4::B}} \\rho_{o} }\\)",
+                "",
+                "akustikk.pdf",
+                "7"
+            ],
+            "guid": "Cu?b;V}p[!",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "likn::2::11"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Den akustiske intensitet er et mål for {{c1::effekttettheten}} i bølgen. I elektromagnetiske fenomener tilsvarer den {{c2::Poynting's vektor}} \\(\\vec{S}\\).",
+                "",
+                "akustikk.pdf",
+                "8"
+            ],
+            "guid": "fJ0]n&F?S.",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\({{c1::\\nabla \\cdot \\vec{I} }}+{{c3::\\frac{\\partial}{\\partial t} }}{{c2::\\left[w_{k}+w_{p}\\right]}}=0\\)",
+                "",
+                "akustikk.pdf",
+                "9"
+            ],
+            "guid": "nR&]0g5I;W",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\text { Akustisk intensitet: } \\quad \\vec{I}={{c1::p \\vec{v} }} \\quad\\left[\\text { watt } / m^{2}\\right]\\)",
+                "",
+                "akustikk.pdf",
+                "8"
+            ],
+            "guid": "M&,As[540K",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\begin{aligned}<br>&amp;\\text { Kinetisk energitetthet: }\\\\<br>&amp;w_{k}={{c1::\\frac{1}{2} \\rho_{o} \\vec{v} }} \\cdot \\vec{v} \\quad\\left[\\text { joule } / m^{3}\\right]<br>\\end{aligned}\\)",
+                "",
+                "akustikk.pdf",
+                "8"
+            ],
+            "guid": "E0$:Fw1d.q",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\text { Potensiell energitetthet: }&nbsp;<div>\\quad w_{p}=\\frac{1}{2} {{c1::\\frac{1}{P_{o} \\gamma} }} {{c2::p^{2} }} \\quad\\left[\\text { joule } / m^{3}\\right]\\)</div>",
+                "",
+                "akustikk.pdf",
+                "8"
+            ],
+            "guid": "fOo%$(LpFB",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\\(\\begin{array}{l}<br>\\frac{\\hat{p}_{3}}{\\hat{p}_{1}}={{c1::\\frac{2 Z_{2} }{Z_{1}+Z_{2} } }}={{c2::\\tau}} \\\\<br>\\frac{\\hat{p}_{2}}{\\hat{p}_{1}}={{c3::\\frac{Z_{2}-Z_{1} }{Z_{1}+Z_{2} } }}=\\kappa<br>\\end{array}\\)<br></div><img src=\"Skjermbilde 2021-01-19 kl. 12.54.48.png\"><div><br></div>",
+                "",
+                "akustikk.pdf",
+                "10"
+            ],
+            "guid": "O^O;/u_))o",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>gensebetingelser etc transmisjonsutledning:</div><div>\\({{c1::p(0)}} = \\text { kontinuerlig } \\)</div><div><br>\\({{c1::v(0)}} = \\text { kontinuerlig }\\)</div><div><br></div><div>\\(<div><br>{{c2::\\hat{p}_{1}+\\hat{p}_{2} }} =\\hat{p}_{3} \\)</div><div><br>\\({{c2::\\hat{v}_{1}+\\hat{v}_{2} }} =\\hat{v}_{3}<br><br></div>\\)<br></div><img src=\"Skjermbilde 2021-01-19 kl. 12.54.48.png\"><div><br></div>",
+                "",
+                "akustikk.pdf",
+                "10"
+            ],
+            "guid": "n8WXAt}p?:",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Den {{c1::instantane intensitet}} \\(I(\\mathrm{x}, \\mathrm{t})\\) består av et {{c2::periodisk ledd med frekvens \\(2 \\omega\\)}}, overlagt et {{c3::tidsuavhengig ledd}}. Det tidsuavhengige ledd representerer {{c4::tidsmiddelverdien \\(\\overline{I(x, t)}\\)}}.",
+                "",
+                "akustikk.pdf",
+                "9"
+            ],
+            "guid": "mGsXbDDE@$",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[<br>Z_{\\text {in }} ={{c1::Z_{1} }} \\frac{ {{c2::Z_{L} \\cos k_{1} L}}+{{c3::j Z_{1} \\sin k_{1} L}} }{ {{c4::Z_{1} \\cos k_{1} L}}+{{c5::j Z_{L} \\sin k_{1} L}} }<br>\\]<div><br>hvor vi interpreterer \\(Z_{\\text {in }}\\) som {{c6::inngangsimpedansen}} for en seksjon av lengde \\(L\\) som er avsluttet med impedansen {{c7::\\(Z_{L}\\)}} (i vårt tilfelle er \\(Z_{L}=Z_{2}\\) ).</div><div><img src=\"Skjermbilde 2021-01-19 kl. 12.54.48.png\"><br></div>",
+                "",
+                "akustikk.pdf",
+                "12"
+            ],
+            "guid": "ftWa>$)FGQ",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "&nbsp;Impedanstilpasning med kvartbølgetransformator.&nbsp;<div>vi ønsker her {{c1::null refleksjon}} ved grenseflaten x=0.&nbsp;</div><div>Det kan vi få ved</div><div>\\({{c2::cos( k 2 L)=0 }}→&nbsp;L= {{c4::(2 n+1)}} {{c5::\\frac{\\lambda_{2} }{4}&nbsp;}}\\)<br><div>\\(Z_{2}={{c3::\\sqrt{Z_{1} Z_{3} } }}</div>\\)<br><div><br><div><img src=\"Skjermbilde 2021-01-19 kl. 13.50.11.png\"><br><br></div></div></div>",
+                "",
+                "akustikk.pdf",
+                "13"
+            ],
+            "guid": "r&9$Q.EXZl",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Dopplereffekt</div><div>\\(</div><div></div><div>f_{M}=\\frac{ {{c2::f_{s} }} }{1-{{c1::\\frac{v}{c} \\cos \\theta}} }</div>\\)",
+                "<img src=\"Skjermbilde 2021-01-19 kl. 14.01.19.png\">",
+                "akustikk.pdf",
+                "14"
+            ],
+            "guid": "exeMY*!v*|",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>hastighet sfæriske bølger</div>\\[<br>\\hat{v}(r)={{c1::\\frac{1}{\\omega \\rho_{0} } }} {{c2::\\left[k-\\frac{j}{r}\\right]}} \\hat{p}(r)<br>\\]<br><br>",
+                "Hastigheten består av to ledd, ett i fase med \\(\\hat{p}\\) og ett ute av fase med \\(\\hat{p}\\).&nbsp;<div>Det første er hovedleddet, som representerer fjernfeltet. Dette dominerer når \\(k r \\gg 1,\\) dvs. for tilstrekkelig<br>stor avstand fra lydkilden. Det andre leddet representerer et noerfelt som er analogt med nærfeltet i elektromagnetisk stråling fra en dipol.</div><div>uttrykket er også lik&nbsp; \\frac{1}{r} \\frac{1}{\\omega \\rho_{0}}\\left[k-\\frac{j}{r}\\right] \\hat{p}_{0} e^{-j k r}</div>",
+                "akustikk.pdf",
+                "18"
+            ],
+            "guid": "i+#tSCfThA",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sfæriske bølger:<div>Absoluttverdien av den akustiske impedans er gitt ved<br>\\[<br>\\left|Z_{s}\\right| = {{c1::\\rho_{0} c}} \\frac{ {{c2::k r}} }{ {{c3::\\sqrt{1+k^{2} r^{2}} }} }<br>\\]<br></div>",
+                "",
+                "akustikk.pdf",
+                "19"
+            ],
+            "guid": "K<dL7znk9F",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit"
+            ]
+        }
+    ]
+}

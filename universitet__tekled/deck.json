@@ -1,0 +1,746 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "c307067a-59d2-11eb-916c-7c04d0da0a8a",
+    "deck_config_uuid": "e5f9ee88-598a-11eb-a1d8-7c04d0da0a8a",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "e5f9ee88-598a-11eb-a1d8-7c04d0da0a8a",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "0a30c240437848bc908ec7194eb3cce8-oa-1-A.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-1-Q.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-2-A.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-2-Q.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-3-A.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-3-Q.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-4-A.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-4-Q.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-5-A.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-5-Q.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-6-A.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-6-Q.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-7-A.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-7-Q.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-8-A.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-8-Q.svg",
+        "0a30c240437848bc908ec7194eb3cce8-oa-O.svg",
+        "42862c32deed4b55b71eb6d602ab6643-oa-1-A.svg",
+        "42862c32deed4b55b71eb6d602ab6643-oa-1-Q.svg",
+        "42862c32deed4b55b71eb6d602ab6643-oa-2-A.svg",
+        "42862c32deed4b55b71eb6d602ab6643-oa-2-Q.svg",
+        "42862c32deed4b55b71eb6d602ab6643-oa-3-A.svg",
+        "42862c32deed4b55b71eb6d602ab6643-oa-3-Q.svg",
+        "42862c32deed4b55b71eb6d602ab6643-oa-4-A.svg",
+        "42862c32deed4b55b71eb6d602ab6643-oa-4-Q.svg",
+        "42862c32deed4b55b71eb6d602ab6643-oa-O.svg",
+        "Skjermbilde 2021-01-10 kl. 13.59.24.png",
+        "Skjermbilde 2021-01-10 kl. 14.08.14.png"
+    ],
+    "mid": 1568390094743,
+    "name": "universitet::tekled",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c3074d56-59d2-11eb-916c-7c04d0da0a8a",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "external_source",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "external_page",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic  (pdf references)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n<br><br><br><a href='javascript:pycmd(\"pdfjs319501851{{text:external_source}}319501851{{text:external_page}}\");'>{{external_source}}</a>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "external_source",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "external_page",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze  (pdf references)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}\n<br><br><br><a href='javascript:pycmd(\"pdfjs319501851{{text:external_source}}319501851{{text:external_page}}\");'>{{external_source}}</a>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3a112ed2-59d1-11eb-916c-7c04d0da0a8a",
+            "css": "/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2;\n  visibility: hidden;\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "ID (hidden)",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Header",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Image",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Question Mask",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Footer",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Remarks",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Sources",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Extra 1",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Extra 2",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Answer Mask",
+                    "ord": 9,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Original Mask",
+                    "ord": 10,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Image Occlusion Enhanced",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tags": [
+                "båtførerprøven"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n\n<script>\n// Toggle answer mask on clicking the image\nvar toggle = function() {\n  var amask = document.getElementById('io-overlay');\n  if (amask.style.display === 'block' || amask.style.display === '')\n    amask.style.display = 'none';\n  else\n    amask.style.display = 'block'\n}\n\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "IO Card",
+                    "ord": 0,
+                    "qfmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n\n<script>\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "hva er forskjellen på inkrementalisme og rasjonalisme?",
+                "Rasjonalisme: planlegge og analysere omgivelser på forhånd<div>inkrementalisme: prøving og feiling</div>",
+                "Tekled-kompendium.pdf",
+                "6"
+            ],
+            "guid": "Fw3UV4GU5i",
+            "note_model_uuid": "c3074d56-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<i>ni faktorer for utnyttelse av innovasjonsfordeler</i><div>{{c1::<div>1. Hemmelighold<br></div><div>2. Akkumulert taus kunnskap</div>}}<br></div><div>{{c2::<div>3. Ledetider&nbsp;og service etter salg<br></div><div>4. Læringskurven</div>}}<br></div><div>{{c3::5. Supplerende ferdigheter}}<br></div><div>{{c4::<div>6. Produktkompleksitet<br></div><div>7. Standarder</div>}}<br></div><div>{{c5:: 8. Foregangsfigurer&nbsp;for radikalt nye produkter}}{{c6::</div><div>9. Styrken til patentbeskyttelse</div>}}",
+                "<div><br></div><b><div><b><br></b></div>Hemmelighold. </b>Regnes som spesielt effektivt for prosessinnovasjoner. Det vil allikevel ofte være mulig å kopiere prosesser, basert på en analyse av det endelige produktet. <b>Akkumulert taus kunnskap</b>. Vil være spesielt vanskelig å imitere når kunnskapen er godt integrert i selskapet. Eksempler kan være produktdesignferdigheter, som for eksempel hos Benetton i klesdesign eller Rolls-Royce i flymotorer.<div><b>Ledetider og service etter salg</b>.&nbsp;Kan være med å bygge kundelojalitet og troverdighet, og gi verdifull feedback fra kunder og brukere.&nbsp;</div><div><b>Læringskurven</b>&nbsp;Ved å være først på markedet, kan bedriften kutte kostnader gjennom å bevege seg raskere bortover læringskurven enn konkurrenter som kommer inn på et senere tidspunkt.<br><b>Supplerende ferdigheter</b>&nbsp;Å kommersialisere en innovasjon krever ofte at bedriften også har ferdigheter i produksjon, markedsføring, kundebehandling, etc.<br><b>Produktkompleksitet&nbsp;</b>Komplekse produkter vil være vanskeligere å imitere enn mer simple produkter. Standarder. Å vinne en \"standardkrig\" kan være en effektiv barriere mot nye konkurrenter, for eksempel i tilfellet VHS versus Betamax.</div><div><b>Standarder</b>. Å vinne en \"standardkrig\" kan være en effektiv barriere mot nye konkurrenter, for eksempel i tilfellet VHS versus Betamax.<br></div><div><b>Foregangsfigurer</b> <b>for radikalt nye produkter</b>. Enkelte selskaper har suksess med ă være pionerene som fronter ny teknologi. Ved å skaffe seg et rykte som dristige foregangsfigurer, kan de sikre seg en lojal kundebase.<br><b>Styrken til patentbeskyttelse</b>. Patenter er regnet som en mer effektiv beskyttelse for produktinnovasjoner enn for prosessinnovasjoner. Graden av effektivitet varierer også mye mellom forskjellige industrier, og er regnet som spesielt effektivt i farmasøytisk industri.<br></div>",
+                "Tekled-kompendium.pdf",
+                "6"
+            ],
+            "guid": "DGpxslG^l.",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "de fem teknologiske utviklingsbanene er&nbsp;<div><br><div>{{c1::1. Leverandørdominerte selskaper}}<br></div><div>{{c2::<div>2. Skalaintensive selskaper<br></div><div>3. Forskningsbaserte selskaper</div>}}<br></div><div>{{c3::<div>4. Informasjonsintensive selskaper<br></div><div>5. Spesialiserte leverandører</div>}}<br></div></div>",
+                "<div><b>Mnemonic:</b>&nbsp;Baner leverer skala-forskning, informasjonsspesialiserning</div><b>Leverandørdominerte selskaper.</b> Forandringer i teknologi kommer hovedsakelig fra leverandører av maskineri og utstyr. Innovasjonsfokuset ligger i å kombinere den nye teknologien med eldre teknologi for å forsterke konkurransefortrinn.&nbsp;<div><b>Skalaintensive selskaper</b>. Fokuset ligger i å optimalisere produksjonsprosesser for å oppnå større stordriftsfordeler. Dette oppnås ofte gjennom inkrementell innovasjon og kontinuerlig forbedring.<br><b>Forskningsbaserte selskaper</b>. Ny teknologi kommer fra akademisk forskning i egne laboratorier. Utfordringen er å omforme denne forskningen til kommersielle produkter og tjenester.<b>&nbsp;</b></div><div><b>Informasjonsintensive selskaper</b>. Forandringer i teknologi kommer ofte som nye ITsystemer som kan håndtere store datamengder.</div><div><b>Spesialiserte leverandører</b>. Ofte små selskaper som leverer høyteknologiske komponenter som integreres av større selskaper. Utfordringer ligger i å holde tritt med kundenes behov.<div><br></div></div>",
+                "Tekled-kompendium.pdf",
+                "7"
+            ],
+            "guid": "j)Xsnz?B3(",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Et begrep som er knyttet til kjernekompetanse er <b>dynamiske kapabiliteter</b>.<div>VRIN analyse, alle krav må oppfylles for at det skal være en bra&nbsp;dynamiske kapabilitet<br><div>{{c1::<div>Valuable<br></div><div>Rare</div>}}<br></div><div>{{c2::<div>In-imitability<br></div><div>Non-substitutable</div>}}<br></div></div>",
+                "",
+                "Tekled-kompendium.pdf",
+                "7"
+            ],
+            "guid": ";w*bPv_o%",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>5 Ting som nevnes som innovasjonskilder</div><div><br></div>{{c1::1. Knowledge push/Need pull}}<div>{{c2::2. Brukere som innovatører}}<br></div><div>{{c3::3. Exploitation versus Exploration}}<br></div><div>{{c4::4. Global innovasjon (spesialiseringsbasert struktur vs integrasjonsbasert struktur)}}<br></div><div>{{c5::5. Markeder i utviklingsland}}<br></div>",
+                "<b>Mnemonic:</b>&nbsp;push users to exploitation in global markets",
+                "Tekled-kompendium.pdf",
+                "8"
+            ],
+            "guid": "Q<$.h{&O<5",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::5"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "0a30c240437848bc908ec7194eb3cce8-oa-1",
+                "",
+                "<img src=\"Skjermbilde 2021-01-10 kl. 13.59.24.png\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-1-A.svg\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-O.svg\" />"
+            ],
+            "guid": "O%eH:Gwr#K",
+            "note_model_uuid": "3a112ed2-59d1-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::5"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "0a30c240437848bc908ec7194eb3cce8-oa-2",
+                "",
+                "<img src=\"Skjermbilde 2021-01-10 kl. 13.59.24.png\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-2-A.svg\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-O.svg\" />"
+            ],
+            "guid": "vq/#}6BX4j",
+            "note_model_uuid": "3a112ed2-59d1-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::5"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "0a30c240437848bc908ec7194eb3cce8-oa-3",
+                "",
+                "<img src=\"Skjermbilde 2021-01-10 kl. 13.59.24.png\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-3-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-3-A.svg\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-O.svg\" />"
+            ],
+            "guid": "LOyeAr`WUu",
+            "note_model_uuid": "3a112ed2-59d1-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::5"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "0a30c240437848bc908ec7194eb3cce8-oa-4",
+                "",
+                "<img src=\"Skjermbilde 2021-01-10 kl. 13.59.24.png\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-4-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-4-A.svg\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-O.svg\" />"
+            ],
+            "guid": "uCsAH.H=Uv",
+            "note_model_uuid": "3a112ed2-59d1-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::5"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "0a30c240437848bc908ec7194eb3cce8-oa-5",
+                "",
+                "<img src=\"Skjermbilde 2021-01-10 kl. 13.59.24.png\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-5-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-5-A.svg\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-O.svg\" />"
+            ],
+            "guid": "G1ykqst%7g",
+            "note_model_uuid": "3a112ed2-59d1-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::5"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "0a30c240437848bc908ec7194eb3cce8-oa-6",
+                "",
+                "<img src=\"Skjermbilde 2021-01-10 kl. 13.59.24.png\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-6-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-6-A.svg\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-O.svg\" />"
+            ],
+            "guid": "Obp>>1o+5/",
+            "note_model_uuid": "3a112ed2-59d1-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::5"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "0a30c240437848bc908ec7194eb3cce8-oa-7",
+                "",
+                "<img src=\"Skjermbilde 2021-01-10 kl. 13.59.24.png\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-7-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-7-A.svg\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-O.svg\" />"
+            ],
+            "guid": "h0_286h!GN",
+            "note_model_uuid": "3a112ed2-59d1-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::5"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "0a30c240437848bc908ec7194eb3cce8-oa-8",
+                "",
+                "<img src=\"Skjermbilde 2021-01-10 kl. 13.59.24.png\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-8-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-8-A.svg\" />",
+                "<img src=\"0a30c240437848bc908ec7194eb3cce8-oa-O.svg\" />"
+            ],
+            "guid": "xH]-niidd,",
+            "note_model_uuid": "3a112ed2-59d1-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::5"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "konseptet om {{c1::åpen innovasjon}} går ut på å også benytte eksterne ressurser i utvikling",
+                "",
+                "Tekled-kompendium.pdf",
+                "9"
+            ],
+            "guid": "slTJT=Eos.",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::6"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "FoU skal ikke bare bestå av kunnskapsgenerering, men også av {{c1::kunnskapsmegling}}.",
+                "",
+                "Tekled-kompendium.pdf",
+                "9"
+            ],
+            "guid": "x&s*1K5@m,",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::6"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "En mulighetsanalyse er også ofte kalt {{c1::syretest}}",
+                "",
+                "Tekled-kompendium.pdf",
+                "10"
+            ],
+            "guid": "HFVbOP]4Nx",
+            "note_model_uuid": "c2d69a76-59d2-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::8"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "42862c32deed4b55b71eb6d602ab6643-oa-1",
+                "",
+                "<img src=\"Skjermbilde 2021-01-10 kl. 14.08.14.png\" />",
+                "<img src=\"42862c32deed4b55b71eb6d602ab6643-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"42862c32deed4b55b71eb6d602ab6643-oa-1-A.svg\" />",
+                "<img src=\"42862c32deed4b55b71eb6d602ab6643-oa-O.svg\" />"
+            ],
+            "guid": "d0/FC^s4^Y",
+            "note_model_uuid": "3a112ed2-59d1-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "42862c32deed4b55b71eb6d602ab6643-oa-2",
+                "",
+                "<img src=\"Skjermbilde 2021-01-10 kl. 14.08.14.png\" />",
+                "<img src=\"42862c32deed4b55b71eb6d602ab6643-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"42862c32deed4b55b71eb6d602ab6643-oa-2-A.svg\" />",
+                "<img src=\"42862c32deed4b55b71eb6d602ab6643-oa-O.svg\" />"
+            ],
+            "guid": "H(s[G@R[3g",
+            "note_model_uuid": "3a112ed2-59d1-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "42862c32deed4b55b71eb6d602ab6643-oa-3",
+                "",
+                "<img src=\"Skjermbilde 2021-01-10 kl. 14.08.14.png\" />",
+                "<img src=\"42862c32deed4b55b71eb6d602ab6643-oa-3-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"42862c32deed4b55b71eb6d602ab6643-oa-3-A.svg\" />",
+                "<img src=\"42862c32deed4b55b71eb6d602ab6643-oa-O.svg\" />"
+            ],
+            "guid": "H)|z8S6QJj",
+            "note_model_uuid": "3a112ed2-59d1-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "42862c32deed4b55b71eb6d602ab6643-oa-4",
+                "",
+                "<img src=\"Skjermbilde 2021-01-10 kl. 14.08.14.png\" />",
+                "<img src=\"42862c32deed4b55b71eb6d602ab6643-oa-4-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"42862c32deed4b55b71eb6d602ab6643-oa-4-A.svg\" />",
+                "<img src=\"42862c32deed4b55b71eb6d602ab6643-oa-O.svg\" />"
+            ],
+            "guid": "o8R`ZuWu*m",
+            "note_model_uuid": "3a112ed2-59d1-11eb-916c-7c04d0da0a8a",
+            "tags": [
+                "creator::ben1mit",
+                "tekled::kompendie::kap::1::4"
+            ]
+        }
+    ]
+}
