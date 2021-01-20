@@ -3,6 +3,7 @@ This is a repository for collaborating on making Anki-cards for the subjects at 
 
 # important
 IF YOU ARE GOING TO COMMIT ANKI CARDS YOU CREATED, PLEASE TAG THEM AS FOLLOWS:
-creator::<github-user-name>
+
+creator::\<github-user-name>
   
 I recommend doing a batch edit of all your cards so that befor you commit you search for the cards lacking the tag creator, and add your own username for that.
